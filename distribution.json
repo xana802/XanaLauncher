@@ -1,0 +1,39 @@
+{
+  "meta": {
+    "discord": "https://discord.gg/kH83quegn7"
+  },
+
+  "common": {
+    "minecraftVersion": "1.18.2",
+    "loader": {
+      "type": "forge",
+      "version": "40.3.12"
+    }
+  },
+
+  "instances": [
+    {
+      "id": "LS-N",
+      "name": "LS-N",
+      "version": "1.0.0",
+      "description": "Serveur Minecraft moddé pour LSN-RP",
+
+      "java": {
+        "minRAM": 3,
+        "maxRAM": 16
+      },
+
+      "serveur": {
+        "host": "localhost",
+        "port": 22
+      },
+
+      "mods": [
+        {
+          "name": "alexsmobs-1.18.6.jar",
+          "url": "http://[2a02:842b:b762:2901:fd3c:d157:65e4:513d]:25565/mods/alexsmobs-1.18.6.jar"
+        }
+      ]
+    }
+  ]
+}
