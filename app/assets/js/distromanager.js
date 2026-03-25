@@ -4,7 +4,7 @@ const ConfigManager = require('./configmanager')
 
 // Old WesterosCraft url.
 // exports.REMOTE_DISTRO_URL = 'https://helios-files.geekcorner.eu.org/distribution.json'
-exports.REMOTE_DISTRO_URL = 'https://lessansnoms.fr/launcher/distributions.json'
+exports.REMOTE_DISTRO_URL = 'https://lessansnoms.fr/launcher/distribution.json'
 
 
 const api = new DistributionAPI(
