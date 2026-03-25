@@ -1,13 +1,13 @@
 {
   "meta": {
-    "discord": "https://discord.gg/kH83quegn7"
+    "discord": "https://discord.gg/9Jetj6nEJb"
   },
 
   "common": {
-    "minecraftVersion": "1.18.2",
+    "minecraftVersion": "1.20.1",
     "loader": {
       "type": "forge",
-      "version": "40.3.12"
+      "version": "47.4.10"
     }
   },
 
@@ -20,18 +20,207 @@
 
       "java": {
         "minRAM": 3,
-        "maxRAM": 16
+        "maxRAM": 32
       },
 
       "serveur": {
-        "host": "localhost",
-        "port": 22
+        "host": "51.75.124.175",
+        "port": 25565
       },
 
       "mods": [
         {
-          "name": "alexsmobs-1.18.6.jar",
-          "url": "http://[2a02:842b:b762:2901:fd3c:d157:65e4:513d]:25565/mods/alexsmobs-1.18.6.jar"
+          "name": "additional_lights-1.20.1-2.1.7.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "another_furniture-forge-1.20.1-3.0.4.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "appleskin-forge-mc1.20.1-2.5.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "architectury-9.2.14-forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "armourersworkshop-forge-1.20.1-3.2.7-beta.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "artifacts-forge-9.5.16.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "bendy-lib-forge-4.0.0.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "born_in_chaos_[Forge]1.20.1_1.7.4.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "caelus-forge-3.2.0+1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "camera-forge-1.20.1-1.0.20.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "carryon-forge-1.20.1-2.1.2.7.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "cfm-forge-1.20.1-7.0.0-pre36.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "Chimes-v2.1.1-1.20.1-Forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "cloth-config-11.1.136-forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "comforts-forge-6.4.0+1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "connectivity-1.20.1-7.6.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "cozy_home-3.0.4-forge-1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "CreativeCore_FORGE_v2.12.35_mc1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "cupboard-1.20.1-3.5.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "curios-forge-5.14.1+1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "CustomNPCs-1.20.1-GBPort-Unofficial-1.20.1.20260227.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "displaydelight-1.4.0.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "DragNs_Livestock_Overhaul-1.20.1-3.5.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "DragNs_Pet_Overhaul-1.20.1-2.0.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "DragNs_Wagons-1.20.1-1.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "DustyDecorations_1.20.1Forge_V1.12.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "electroblobs-wizardry-redux-0.7.2-forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "fantasyfurniture-1.20.1-9.0.0.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "FarmersDelight-1.20.1-1.2.10.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "Fastload-Reforged-mc1.20.1-3.4.0.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "ferritecore-6.0.1-forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "framework-forge-1.20.1-0.8.0.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "functionalstorage-1.20.1-1.2.10.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "geckolib-forge-1.20.1-4.8.3.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "handcrafted-forge-1.20.1-3.0.6.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "horror_element_mod-1.6.3-forge-1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "irons_spellbooks-1.20.1-3.0.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "letsdo-API-forge-1.2.15-forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "mcw-doors-1.1.5-mc1.20.1forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "mcw-mcwfences-1.2.1-mc1.20.1forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "MOAdecor SCIENCE 1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "modernfix-forge-5.26.2+mc1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "MorePlayerModels-1.20.1.20240409.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "nightlights-1.20.1-1.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "ParCool-1.20.1-3.4.3.3.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "Patchouli-1.20.1-85-FORGE.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "Pehkui-3.8.2+1.20.1-forge.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "PlayerRevive_FORGE_v2.0.31_mc1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "realmrpg_skeletons-1.1.0-forge-1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "redeco-1.14.1-forge-1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "refurbished_furniture-forge-1.20.1-1.0.20.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "resourcefullib-forge-1.20.1-2.1.29.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "sit-1.20.1-1.3.5.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "sophisticatedbackpacks-1.20.1-3.24.28.1582.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "sophisticatedcore-1.20.1-1.3.8.1524.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "sound-physics-remastered-forge-1.20.1-1.4.10.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "SpartanWeaponry-1.20.1-forge-3.2.1-all.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "textiles_and_trinkets-1.1.3-forge-1.20.1.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "titanium-1.20.1-3.8.32.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "voicechat-forge-1.20.1-2.6.12.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "worldedit-mod-7.2.15.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
+        },{
+          "name": "yuushya-1.20.1-forge-2.2.3.jar",
+          "url": "https://lessansnoms.fr/launcher/mods/additional_lights-1.20.1-2.1.7.jar"
         }
       ]
     }
