@@ -71,7 +71,34 @@ async function showMainUI(data){
         document.getElementById('frameBar').style.backgroundColor = 'rgba(0, 0, 0, 0.5)'
         document.body.style.backgroundImage = `url('assets/images/backgrounds/${document.body.getAttribute('bkid')}.jpg')`
         $('#main').show()
+        // ===== DISCORD RPC =====
+        setTimeout(() => {
+            try {
+                const RPC = require('discord-rpc')
+                const clientId = '1487437961057402972'
 
+                RPC.register(clientId)
+
+                const rpc = new RPC.Client({ transport: 'ipc' })
+
+                rpc.on('ready', () => {
+                    rpc.setActivity({
+                        details: "Launcher LSN RP",
+                        state: "Menu principal",
+                        startTimestamp: new Date(),
+                        largeImageKey: "https://lessansnoms.fr/launcher/SealCircle.png",
+                        largeImageText: "LSN RP",
+                        buttons: [
+                            { label: "Discord", url: "https://discord.gg/kH83quegn7" }
+                        ]
+                    })
+                })
+
+                rpc.login({ clientId }).catch(() => {})
+            } catch (e) {
+                console.log("RPC désactivé")
+            }
+        }, 3000)
         const isLoggedIn = Object.keys(ConfigManager.getAuthAccounts()).length > 0
 
         // If this is enabled in a development environment we'll get ratelimited.
